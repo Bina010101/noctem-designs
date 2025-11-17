@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Estudio de Diseño Interior. Productos modernos, reseñas reales y asesoramiento personalizado para transformar tu hogar.">
+  <meta name="keywords" content="diseño interior, decoración, muebles, estética moderna, lámparas, sillones, cuadros">
+  <meta name="author" content="Noctem Designs">
+
+  <title>Noctem Designs | Estudio de Diseño de Interiores</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Iconos (para el carrito) -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- HEADER + NAV -->
+  <header class="header">
+    <h1 class="logo">Noctem Designs</h1>
+
+    <nav aria-label="Navegación principal">
+      <ul class="nav-lista">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#productos">Productos</a></li>
+        <li><a href="#reseñas">Reseñas</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+        <li>
+          <a href="#carrito">
+            Carrito (<span id="carrito-contador">0</span>)
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+
+<!-- INICIO / MULTIMEDIA -->
+<section id="inicio" class="inicio">
+  <h2>Transformá tu espacio</h2>
+  <p>Inspirate con nuestros trabajos y empezá a diseñar tu hogar ideal.</p>
+
+  <div class="inicio-media">
+    
+    <video controls>
+      <source src="VIDEO/video-edit.mp4" type="video/mp4">
+      Tu navegador no soporta el video.
+    </video>
+
+    <img src="IMÁGENES/noctem-logo.jpg" alt="Logo moderno">
+
+  </div>
+</section>
+
+    <!-- PRODUCTOS -->
+    <section id="productos" class="productos">
+      <h2 class="productos__titulo">Productos para tu hogar</h2>
+      <p class="productos__descripcion">
+        Elegí los productos que transformarán tu espacio.
+      </p>
+
+      <div class="productos__grid">
+        <!-- Producto 1 -->
+        <article class="producto">
+          <img
+            src="IMÁGENES/lampara-noir.jpg"
+            alt="Lámpara colgante vintage Cristal Noir"
+            class="producto__imagen">
+          <h3 class="producto__nombre">Lámpara colgante vintage Cristal Noir</h3>
+          <p class="producto__texto">
+            La Lámpara Colgante Vintage Cristal Noir transforma tus espacios en
+            reflejos de elegancia y sofisticación. Con un diseño único, ofrece
+            una mezcla perfecta de estilo clásico y contemporáneo.
+          </p>
+          <p class="producto__precio">$150.000</p>
+          <button class="producto__boton">
+            <i class="fas fa-shopping-cart" aria-hidden="true"></i>
+            <span>Agregar al carrito</span>
+          </button>
+        </article>
+
+        <!-- Producto 2 -->
+        <article class="producto">
+          <img
+            src="IMÁGENES/sillón-moderno.jpg"
+            alt="Silla de acento vintage tapizada"
+            class="producto__imagen">
+          <h3 class="producto__nombre">Silla vintage</h3>
+          <p class="producto__texto">
+            Silla de acento vintage tapizada en tela de microfibra rústica en
+            color antiguo, ideal para sala de estar o dormitorio.
+          </p>
+          <p class="producto__precio">$400.000</p>
+          <button class="producto__boton">
+            <i class="fas fa-shopping-cart" aria-hidden="true"></i>
+            <span>Agregar al carrito</span>
+          </button>
+        </article>
+
+        <!-- Producto 3 -->
+        <article class="producto">
+          <img
+            src="IMÁGENES/cuadro.jpg"
+            alt="Cuadro decorativo azul"
+            class="producto__imagen">
+          <h3 class="producto__nombre">Cuadro "Armonía"</h3>
+          <p class="producto__texto">
+            Cuadro en tonos azules ideales para complementar la paleta de color
+            de tu living o comedor siguiendo la regla 60-30-10.
+          </p>
+          <p class="producto__precio">$150.000</p>
+          <button class="producto__boton">
+            <i class="fas fa-shopping-cart" aria-hidden="true"></i>
+            <span>Agregar al carrito</span>
+          </button>
+        </article>
+
+        <!-- Producto 4 -->
+        <article class="producto">
+          <img
+            src="IMÁGENES/decoración.jpg"
+            alt="Set de 4 objetos de decoración dorados"
+            class="producto__imagen">
+          <h3 class="producto__nombre">Decoración dorada</h3>
+          <p class="producto__texto">
+            Set de piezas metálicas doradas para sumar brillo y sofisticación a
+            cualquier superficie.
+          </p>
+          <p class="producto__precio">$38.700</p>
+          <button class="producto__boton">
+            <i class="fas fa-shopping-cart" aria-hidden="true"></i>
+            <span>Agregar al carrito</span>
+          </button>
+        </article>
+
+        <!-- Producto 5 -->
+        <article class="producto">
+          <img
+            src="IMÁGENES/plantas.jpg"
+            alt="Juego de 5 plantas artificiales decorativas"
+            class="producto__imagen">
+          <h3 class="producto__nombre">Juego de 5 Plantas Artificiales</h3>
+          <p class="producto__texto">
+            Pack de 5 plantas artificiales con macetas tipo cerámica, ideales
+            para escritorios o estanterías.
+          </p>
+          <p class="producto__precio">$21.500</p>
+          <button class="producto__boton">
+            <i class="fas fa-shopping-cart" aria-hidden="true"></i>
+            <span>Agregar al carrito</span>
+          </button>
+        </article>
+
+        <!-- Producto 6 -->
+        <article class="producto">
+          <img
+            src="IMÁGENES/estanteria.jpg"
+            alt="Estantería de pared de madera"
+            class="producto__imagen">
+          <h3 class="producto__nombre">Estantería de pared de madera</h3>
+          <p class="producto__texto">
+            Estantería regulable que permite ajustar la posición de las tablas
+            sin herramientas adicionales.
+          </p>
+          <p class="producto__precio">$250.000</p>
+          <button class="producto__boton">
+            <i class="fas fa-shopping-cart" aria-hidden="true"></i>
+            <span>Agregar al carrito</span>
+          </button>
+        </article>
+
+        <!-- Producto 7 -->
+        <article class="producto">
+          <img
+            src="IMÁGENES/alfombra.jpg"
+            alt="Alfombra moderna de salón"
+            class="producto__imagen">
+          <h3 class="producto__nombre">Alfombra moderna de salón</h3>
+          <p class="producto__texto">
+            Alfombra ultrasuave de 10 mm de grosor para sumar confort y reducir
+            el ruido en livings y comedores.
+          </p>
+          <p class="producto__precio">$110.000</p>
+          <button class="producto__boton">
+            <i class="fas fa-shopping-cart" aria-hidden="true"></i>
+            <span>Agregar al carrito</span>
+          </button>
+        </article>
+
+        <!-- Producto 8 -->
+        <article class="producto">
+          <img
+            src="IMÁGENES/toallero.jpg"
+            alt="Toallero metálico elegante"
+            class="producto__imagen">
+          <h3 class="producto__nombre">Toallero elegante</h3>
+          <p class="producto__texto">
+            Diseño elegante y durabilidad, hecho de aluminio espacial de alta
+            calidad, este juego de accesorios de baño tiene un diseño elegante
+            y moderno que complementa cualquier decoración de baño o cocina.
+          </p>
+          <p class="producto__precio">$85.000</p>
+          <button class="producto__boton">
+            <i class="fas fa-shopping-cart" aria-hidden="true"></i>
+            <span>Agregar al carrito</span>
+          </button>
+        </article>
+      </div>
+    </section>
+
+           <!-- CARRITO -->
+    <section id="carrito" class="carrito">
+      <h2 class="carrito__titulo">Carrito de compras</h2>
+
+      <div class="carrito__contenido">
+        <p id="carrito-vacio">Tu carrito está vacío.</p>
+
+        <table class="carrito__tabla">
+          <thead>
+            <tr>
+              <th>Producto</th>
+              <th>Precio</th>
+              <th>Cantidad</th>
+              <th>Subtotal</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody id="carrito-items">
+    
+          </tbody>
+        </table>
+
+        <div class="carrito__total">
+          <span>Total:</span>
+          <span id="carrito-total">$0</span>
+        </div>
+
+        <button id="carrito-vaciar" class="carrito__boton-vaciar">
+          Vaciar carrito
+        </button>
+      </div>
+    </section>
+    
+    
+    <!-- RESEÑAS -->
+    <section id="reseñas" class="reseñas">
+      <h2 class="reseñas__titulo">Reseñas de clientes</h2>
+      <p class="reseñas__descripcion">
+        Mirá lo que opinan quienes ya transformaron su hogar.</p>
+
+      <div class="reseñas-grid">
+        <article class="reseña">
+          <header class="reseña__header">
+            <h3 class="reseña__nombre">Lucía R.</h3>
+            <span class="reseña__rating" aria-label="5 de 5 estrellas">★★★★★</span>
+          </header>
+          <p class="reseña__producto">
+            Recibió asesoramiento:
+          </p>
+          <p class="reseña__texto">
+            “Estoy muy conforme con la atención de Rebecca, diseñadora de interiores profesional. Mi hogar quedó de ensueño. Los productos de Noctem son de calidad."
+          </p>
+        </article>
+
+        <article class="reseña">
+          <header class="reseña__header">
+            <h3 class="reseña__nombre">Mariana S.</h3>
+            <span class="reseña__rating" aria-label="4 de 5 estrellas">★★★★☆</span>
+          </header>
+          <p class="reseña__producto">Compró: Silla vintage</p>
+          <p class="reseña__texto">
+            “Re cómoda para leer y mirar series. El color resalta un montón con las paredes claras.”
+          </p>
+        </article>
+
+        <article class="reseña">
+          <header class="reseña__header">
+            <h3 class="reseña__nombre">Diego P.</h3>
+            <span class="reseña__rating" aria-label="3 de 5 estrellas">★★★☆☆</span>
+          </header>
+          <p class="reseña__producto">Compró: Estantería de pared de madera</p>
+          <p class="reseña__texto">
+            “Me ayudó a ordenar el living sin ocupar espacio. Fácil de instalar y muy estable.”
+          </p>
+        </article>
+
+        <article class="reseña">
+          <header class="reseña__header">
+            <h3 class="reseña__nombre">Camila L.</h3>
+            <span class="reseña__rating" aria-label="5 de 5 estrellas">★★★★★</span>
+          </header>
+          <p class="reseña__producto">Compró: Juego de 5 Plantas Artificiales</p>
+          <p class="reseña__texto">
+            “Le dieron vida al escritorio sin preocuparme por regarlas. Se ven naturales en fotos y en persona.”
+          </p>
+        </article>
+      </div>
+    </section>
+
+<section class="productos">
+      <h3 class="productos__subtitulo">Recomendados desde la API</h3>
+      <div id="productos-api" class="productos__grid"></div>
+</section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="contacto">
+      <h2 class="contacto__titulo">Contacto</h2>
+      <p class="contacto__texto">
+        ¿Querés asesoramiento en diseño de interiores?
+        Completá el formulario y te respondemos a la brevedad.
+      </p>
+
+      <div class="contacto__contenedor">
+        <form
+          class="contacto__formulario"
+          action="https://formspree.io/f/xdkyperg"
+          method="POST">
+          <div class="campo">
+            <label for="nombreContacto">Nombre</label>
+            <input id="nombreContacto" type="text" name="nombre" required>
+          </div>
+
+          <div class="campo">
+            <label for="emailContacto">Email</label>
+            <input id="emailContacto" type="email" name="email" required>
+          </div>
+
+          <div class="campo">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+          </div>
+
+          <button type="submit" class="contacto__boton">Enviar</button>
+          <p id="form-mensaje" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+ 
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2025 Noctem Designs - Estudio de Diseño de Interiores</p>
+  </footer>
+
+  <!-- JS -->
+  <footer class="footer">...</footer>
+  <script src="script.js">
+  </script>
+</body>
+</html>
